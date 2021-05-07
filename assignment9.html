@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        form{
+            background-image: linear-gradient(to bottom, lightyellow 0%, rgb(255, 174, 0) 100%);
+            background-repeat: no-repeat;
+            padding: 20px;
+            margin: 0 20%;
+
+        }
+
+       table tr td{
+            width: 200px;
+            padding-right: 20px;
+            
+        }
+        input{
+            width: 235px;
+            margin-bottom: 8px;
+        }
+        select{
+            width: 240px;
+            margin-bottom: 8px;
+        }
+
+
+      
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><p style="color: white; background-color: purple; padding: 4px;">PRIMARY DETAIL</p></td>
+            </tr>
+            <tr>
+                <td>Child's Name</td>
+                <td>Child's Date of Birth</td>
+                <td>Child's Gender</td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter Your Child's Name"></td>
+                <td><input type="text" name="" id="" placeholder="DD/MM/YYYY" onfocus="(this.type='date')"></td>
+                <td><select name="" id="">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select> </td>
+            </tr>
+            <tr>
+                <td><p  style="color: white; background-color: purple; padding: 4px;">PARTICIPATION INFORMATION</p></td>
+            </tr>
+            <TR>
+                <td>Parent's Name</td>
+                <td>Parent's Mobile No</td>
+                <td>Email ID</td>
+            </TR>
+            <tr>
+                <td>
+                    <select style="width: min-content;" name="" id="">
+                        <option value="">Mr.</option>
+                        <OPtion>Mrs</OPtion>
+                    </select>
+                    <input style="width: 182px;" type="text" name="" id="" placeholder="Parent's Name">
+                </td>
+                <td><input type="number" name="" id="" placeholder="Parent's Mobile No"></td>
+                <td><input type="email" name="" id="" placeholder="Email ID"></td>
+            </tr>
+            <tr>
+                <td>House No/ Building Name</td>
+                <td>Street</td>
+                <td>Locality</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id="" placeholder="House No/ Building Name"></td>
+                <td><input type="text" name="" id="" placeholder="Street"></td>
+                <td><input type="text" name="" id="" placeholder="Locality"></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td>City</td>
+                <td>Pin Code</td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="" id="">
+                        <option value=""> Select State</option>
+                        <option value="">Bihar</option>
+                        <option value="">UP</option>
+                        <OPtion>MP</OPtion>
+                        <OPtion>Rajasthan</OPtion>
+                    </select>
+                </td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select City</option>
+                        <option value="">Patna</option>
+                        <option value="">Agra</option>
+                        <OPtion>Chapra</OPtion>
+                        <OPtion>Kota</OPtion>
+                    </select>
+                </td>
+                <td><input type="number" name="" id="" placeholder="Pin Code"></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>Password</td>
+                <td>Confirm Password</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="" id="" placeholder="Username"></td>
+                <td><input type="password" name="" id="" placeholder="Password"></td>
+                <td><input type="password" name="" id="" placeholder="Confirm Password"></td>
+            </tr>
+        </table><br>
+        <input style="width: 0; margin: 0;" type="radio" name="" id=""> Are You Max Life Employee Or Agent Advisor?<br><br>
+            Where did You Hear about Us?<br>
+            <select style="width: 770px;" name="" id="">
+                <option value="">Select</option>
+                <option value="">From News Paper Advertizement?</option>
+                <option value="">From Online Social Media</option>
+                <option value="">From Your friends/Family/Relatives?</option>  
+            </select><br><br>
+            <input style="width: 0; margin: 0;" type="radio"> I agree to the Terms & Conditions <br><br>
+            <input style="padding:4px; width:160px" type="submit" value="Register Now">
+    </form>
+</body>
+</html>
